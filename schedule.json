@@ -1,8 +1,8 @@
 [
     {
-        "date": "08",
+        "date": "21",
         "month": "April",
-        "day": "Thursday",
+        "day": "Wednesday",
         "items": [
             {
                 "time": "9:30",
@@ -102,9 +102,9 @@
         ]
     },
     {
-        "date": "09",
+        "date": "22",
         "month": "April",
-        "day": "Friday",
+        "day": "Thursday",
         "items": [
             {
                 "time": "9:30",
