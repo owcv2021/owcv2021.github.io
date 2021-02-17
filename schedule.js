@@ -11,6 +11,8 @@ request.onreadystatechange = () => {
     for (const day of data) {
         const dayEl = document.createElement('div');
         dayEl.className = 'schedule-day';
+        const subtitleEl = document.createElement('h3');
+        subtitleEl.textContent = day['month'];
         const titleEl = document.createElement('h2');
         titleEl.textContent = day['date'];
         const subtitleEl = document.createElement('h3');

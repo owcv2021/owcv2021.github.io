@@ -1,7 +1,7 @@
 [
     {
-        "date": "10",
-        "month": "December",
+        "date": "08",
+        "month": "April",
         "day": "Thursday",
         "items": [
             {
@@ -14,18 +14,18 @@
                 "items": [
                     {
                         "name": "Talk #1",
-                        "author": "Kirill Brodt",
-                        "affiliation": "UdeM"
+                        "author": "Speaker01",
+                        "affiliation": "Uni01"
                     },
-					{
+                    {
                         "name": "Talk #2",
-                        "author": "Jordy Ajanohoun",
-                        "affiliation": "ÉTS"
+                        "author": "Speaker02",
+                        "affiliation": "Uni02"
                     },
-					{
+                    {
                         "name": "Talk #3",
-                        "author": "Vismay Modi",
-                        "affiliation": "UofT"
+                        "author": "Speaker03",
+                        "affiliation": "Uni03"
                     }
                 ]
             },
@@ -35,7 +35,7 @@
             },
             {
                 "time": "11:15",
-                "name": "Keynote - T. Hachisuka"
+                "name": "Keynote - Prof"
             },
             {
                 "time": "12:00",
@@ -47,18 +47,18 @@
                 "items": [
                     {
                         "name": "Talk #4",
-                        "author": "Hsueh-Ti Derek Liu",
-                        "affiliation": "UofT"
+                        "author": "Speaker04",
+                        "affiliation": "Uni04"
                     },
-					{
+                    {
                         "name": "Talk #5",
-                        "author": "Towaki Takikawa",
-                        "affiliation": "UofT"
+                        "author": "Speaker05",
+                        "affiliation": "Uni05"
                     },
-					{
+                    {
                         "name": "Talk #6",
-                        "author": "Silvia Sellán",
-                        "affiliation": "UofT"
+                        "author": "Speaker06",
+                        "affiliation": "Uni06"
                     }
                 ]
             },
@@ -72,22 +72,22 @@
                 "items": [
                     {
                         "name": "Talk #7",
-                        "author": "Jumyung \"JC\" Chang",
-                        "affiliation": "UWaterloo"
+                        "author": "",
+                        "affiliation": ""
                     },
-					{
+                    {
                         "name": "Talk #8",
-                        "author": "Jonathan Panuelos",
-                        "affiliation": "UWaterloo"
+                        "author": "",
+                        "affiliation": ""
                     },
-					{
+                    {
                         "name": "Talk #9",
-                        "author": "Damien Rioux-Lavoie",
-                        "affiliation": "McGill"
+                        "author": "",
+                        "affiliation": ""
                     },{
                         "name": "Talk #10",
-                        "author": "Nathan King",
-                        "affiliation": "UWaterloo"
+                        "author": "",
+                        "affiliation": ""
                     }
                 ]
             },
@@ -97,13 +97,13 @@
             },
             {
                 "time": "19:30",
-                "name": "Graphics Trivia Night"
+                "name": "CV Trivia Night"
             }
         ]
     },
     {
-        "date": "11",
-        "month": "December",
+        "date": "09",
+        "month": "April",
         "day": "Friday",
         "items": [
             {
@@ -112,23 +112,23 @@
                 "items": [
                     {
                         "name": "Talk #11",
-                        "author": "Ivan Puhachov",
-                        "affiliation": "UdeM"
+                        "author": "Speaker11",
+                        "affiliation": "Uni11"
                     },
-					{
+                    {
                         "name": "Talk #12",
-                        "author": "Rinat Abdrashitov",
-                        "affiliation": "UofT"
+                        "author": "Speaker12",
+                        "affiliation": "Uni12"
                     },
-					{
+                    {
                         "name": "Talk #13",
-                        "author": "Seungbae Bang",
-                        "affiliation": "UofT"
+                        "author": "Speaker13",
+                        "affiliation": "Uni13"
                     },
                     {
                         "name": "Talk #14",
-                        "author": "Otman Benchekroun",
-                        "affiliation": "UofT"
+                        "author": "Speaker14",
+                        "affiliation": "Uni14"
                     }
                 ]
             },
@@ -138,7 +138,7 @@
             },
             {
                 "time": "11:15",
-                "name": "Keynote - D. Holden"
+                "name": "Keynote - Prof."
             },
             {
                 "time": "12:00",
@@ -150,18 +150,18 @@
                 "items": [
                     {
                         "name": "Talk #15",
-                        "author": "Henry Ho & Marwen Kraiem",
-                        "affiliation": "McGill"
+                        "author": "Speaker15",
+                        "affiliation": "Uni15"
                     },
-					{
+                    {
                         "name": "Talk #16",
-                        "author": "Xinhao Cai",
-                        "affiliation": "McGill"
+                        "author": "Speaker16",
+                        "affiliation": "Uni16"
                     },
-					{
+                    {
                         "name": "Talk #17",
-                        "author": "Alexandre Mercier-Aubin",
-                        "affiliation": "McGill"
+                        "author": "Speaker17",
+                        "affiliation": "Uni17"
                     }
                 ]
             },
@@ -175,23 +175,23 @@
                 "items": [
                     {
                         "name": "Talk #18",
-                        "author": "Ryusuke Sugimoto",
+                        "author": "",
                         "affiliation": "UWaterloo"
                     },
-					{
+                    {
                         "name": "Talk #19",
-                        "author": "Jean-Philippe Guertin",
-                        "affiliation": "UdeM"
+                        "author": "",
+                        "affiliation": ""
                     },
-					{
+                    {
                         "name": "Talk #20",
-                        "author": "Rex West",
-                        "affiliation": "UTokyo"
+                        "author": "",
+                        "affiliation": ""
                     },
                     {
                         "name": "Talk #21",
-                        "author": "Soroush Saryazdi",
-                        "affiliation": "Concordia"
+                        "author": "",
+                        "affiliation": ""
                     }
                 ]
             },
