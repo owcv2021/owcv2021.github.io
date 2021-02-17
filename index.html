@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+        <title>OWCV 2021</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="schedule.css">
+        <link href="https://fonts.googleapis.com/css2?family=Commissioner&family=Lato&display=swap" rel="stylesheet">
+	</head>
+	<body>
+        <div id='nav-container'>
+            <nav>
+                <a href='#about'>About</a>
+                <a href='#keynote'>Speakers</a>
+                <a href='#schedule'>Schedule</a>
+                <a href='#org'>Organizers</a>
+                <a href='#contact'>Contact</a>
+            </nav>
+        </div>
+        <div id='canvas-container' class='full-bleed'>
+            <!-- The following h1 and h2 elements are read from the javascript code to generate the 3D scene -->
+            <h1>OWCV2021</h1>
+            <h2>(Virtual)</h2>
+            <h2>April 10-11, 2021</h2>
+            <div class='btn-container'>
+                <div class='button register' onclick="window.open('https:/\/forms.gle/QCgbsWWqLJgeazjN9')">Register Now</div>
+                <div onclick='window.location="#about"' class='button more-info'>More info ↓</div>
+            </div>
+        </div>
+        <div id='about'>
+            <h2>About the event</h2>
+            <p>OWCV is a computer vision workshop, organized by and for the major computer vision labs in Ontario. It is an opportunity for students to present their prospective submissions to a friendly, constructively critical audience, interact with fellow researchers, and to get valuable feedback.</p>
+            <div class='btn-container full-bleed'>
+                <div onclick='window.location="#schedule"' class='button schedule'>Schedule</div>
+                <div class='button register' onclick="window.open('https:/\/forms.gle/QCgbsWWqLJgeazjN9')">Register</div>
+            </div>
+        </div>
+        <div id='keynote'>
+            <h2>Keynote Speakers</h2>
+            <div class='speaker-container full-bleed'>
+                <div>
+                    <h3>Speaker 1</h3>
+                    <img src='res/person.png' />
+                    <p>Associate Professor<br>University in Ontario</p>
+                </div>
+                <div>
+                    <h3>Speaker 2</h3>
+                    <img src='res/person.png' />
+                    <p>Research Scientist<br>Company in Ontario</p>
+                </div>
+            </div>
+        </div>
+        <div id='schedule'>
+            <h2>Schedule</h2>
+            <div id='schedule-grid-container'>
+                <div id='schedule-grid'>
+                    <!-- See schedule.js for how this section is automatically filled using schedule.json -->
+                </div>
+            </div>
+        </div>
+        <div id='org'>
+            <h2>Organizers</h2>
+            <div class='speaker-container full-bleed'>
+                <div>
+                    <h3>Org 1</h3>
+                    <img src='res/person.png' />
+                    <p>PhD<br>University in Ontario</p>
+                </div>
+                <div>
+                    <h3>Org 2</h3>
+                    <img src='res/person.png' />
+                    <p>Postdoc<br>Company in Ontario</p>
+                </div>
+            </div>
+        </div>
+        <div id='contact'>
+            <h2>Contact</h2>
+            <p>Any questions at all? Send us an email!</p>
+            <div class='btn-container full-bleed'>
+                <div class='button contact' onclick="window.open('mailto:owcv2021@gmail.com')" title='owcv2021@gmail.com'>Contact</div>
+            </div>
+        </div>
+
+        <script src="lib/three.min.js"></script>
+        <script src="lib/OrbitControl.js"></script>
+        <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+
+        <script src='index.js'></script>
+        <script src="schedule.js"></script>
+	</body>
+</html>
