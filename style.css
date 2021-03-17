@@ -59,7 +59,7 @@ canvas {
     width: 100%;
     display: grid;
     /* grid-template-columns: 1fr min(75ch, 100%) 1fr; */
-    grid-template-columns: 1fr 400px 40px;
+    grid-template-columns: 1fr 450px 40px;
     padding: 20px 0;
     z-index: 10000;
     background-color: transparent;
