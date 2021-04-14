@@ -217,7 +217,29 @@
             },
             {
                 "time": "12:30",
-                "name": "Meet the Professors"
+                "name": "Meet the Professors",
+                "items": [
+                    {
+                        "name": "",
+                        "author": "Marcus Brubaker",
+                        "affiliation": "York"
+                    },
+                    {
+                        "name": "",
+                        "author": "Kosta Derpanis",
+                        "affiliation": "Ryerson"
+                    },
+                    {
+                        "name": "",
+                        "author": "Yalda Mohsenzadeh",
+                        "affiliation": "Western Ontario"
+                    },
+                    {
+                        "name": "",
+                        "author": "Faisal Qureshi",
+                        "affiliation": "Ontario Tech"
+                    }
+                ]
             },
             {
                 "time": "13:30",
