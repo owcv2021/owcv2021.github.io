@@ -6,98 +6,121 @@
         "items": [
             {
                 "time": "9:30",
-                "name": "Opening"
-            },
-            {
-                "time": "9:45",
-                "name": "Session 1",
+                "name": "Keynote 1",
                 "items": [
                     {
-                        "name": "Talk #1",
-                        "author": "Speaker01",
-                        "affiliation": "Uni01"
-                    },
-                    {
-                        "name": "Talk #2",
-                        "author": "Speaker02",
-                        "affiliation": "Uni02"
-                    },
-                    {
-                        "name": "Talk #3",
-                        "author": "Speaker03",
-                        "affiliation": "Uni03"
+                        "name": "Advances in Conditional Generative Models",
+                        "author": "Graham Taylor",
+                        "affiliation": "Guelph"
                     }
                 ]
+            },
+            {
+                "time": "10:45",
+                "name": "Break"
             },
             {
                 "time": "11:00",
-                "name": "Break"
-            },
-            {
-                "time": "11:15",
-                "name": "Keynote - Prof"
-            },
-            {
-                "time": "12:00",
-                "name": "Lunch Break"
-            },
-            {
-                "time": "13:00",
-                "name": "Session 2",
+                "name": "Poster Session 1",
                 "items": [
                     {
-                        "name": "Talk #4",
-                        "author": "Speaker04",
-                        "affiliation": "Uni04"
+                        "name": "CLAR: Contrastive Learning of Auditory Representations",
+                        "author": "Haider Al-Tahan, Yalda Mohsenzadeh",
+                        "affiliation": "1"
                     },
                     {
-                        "name": "Talk #5",
-                        "author": "Speaker05",
-                        "affiliation": "Uni05"
+                        "name": "Automatic Abbreviation of Hockey Videos",
+                        "author": "Hemanth Pidaparthy, Michael Dowling, James Elder",
+                        "affiliation": "3"
                     },
                     {
-                        "name": "Talk #6",
-                        "author": "Speaker06",
-                        "affiliation": "Uni06"
+                        "name": "Understanding Gene Model Maps",
+                        "author": "Michael Lombardo, Faisal Qureshi",
+                        "affiliation": "5"
+                    },
+                    {
+                        "name": "Nolan S. Dey, J. Eric Taylor, Bryan P. Tripp, Alexander Wong, Graham W. Taylor",
+                        "author": "Identifying and interpreting tuning dimensions in deep networks",
+                        "affiliation": "7"
+                    },
+                    {
+                        "name": "Zero-shot Learning with Class Description Regularization",
+                        "author": "Shayan Kousha, Marcus A. Brubaker",
+                        "affiliation": "9"
+                    },
+                    {
+                        "name": "Active Correspondences Projector-Camera (Procam) Sensors",
+                        "author": "Jonathon Malcolm, Ian J. Maquignaz",
+                        "affiliation": "11"
+                    },
+                    {
+                        "name": "Normalizing Flow for semi-supervised learning",
+                        "author": "Vincent Sham",
+                        "affiliation": "13"
+                    },
+                    {
+                        "name": "Wavelet Flow: Fast Training of High Resolution Normalizing Flows",
+                        "author": "Jason J. Yu, Konstantinos G. Derpanis, Marcus A. Brubaker",
+                        "affiliation": "15"
+                    },
+                    {
+                        "name": "Hyperspectral pixel unmixing with Deep Variational Inference",
+                        "author": "Kiran Mantripragada, Faisal Z. Qureshi",
+                        "affiliation": "17"
+                    },
+                    {
+                        "name": "Training neural networks for feature alignment",
+                        "author": "Siavash Rezaei",
+                        "affiliation": "19"
+                    },
+                    {
+                        "name": "SSTVOS: Sparse Spatiotemporal Transformers for Video Object Segmentation",
+                        "author": "Brendan Duke, Abdalla Ahmed, Christian Wolf, Parham Aarabi, Graham W. Taylor",
+                        "affiliation": "21"
+                    },
+                    {
+                        "name": "Unsupervised Image Demoireing using Implicit Neural Representation",
+                        "author": "Seonghyeon Nam, Marcus A. Brubaker, Michael S. Brown",
+                        "affiliation": "23"
+                    },
+                    {
+                        "name": "Precisely calibrated and spatially informed illumination for conventional fluorescence and improved PALM imaging applications",
+                        "author": "Angel Mancebo, Luke DeMars, Christopher T Ertsgaard, Elias M Puchner",
+                        "affiliation": "25"
+                    },
+                    {
+                        "name": "Topo Sampler: A Topology Constrained Noise Sampling for GANs",
+                        "author": "Adrish Dey, Sayantan Das",
+                        "affiliation": "27"
                     }
                 ]
             },
             {
-                "time": "14:15",
-                "name": "Break"
+                "time": "12:30",
+                "name": "Lunch"
             },
             {
-                "time": "14:30",
-                "name": "Session 3",
+                "time": "13:30",
+                "name": "Keynote 2",
                 "items": [
                     {
-                        "name": "Talk #7",
-                        "author": "",
-                        "affiliation": ""
-                    },
-                    {
-                        "name": "Talk #8",
-                        "author": "",
-                        "affiliation": ""
-                    },
-                    {
-                        "name": "Talk #9",
-                        "author": "",
-                        "affiliation": ""
-                    },{
-                        "name": "Talk #10",
-                        "author": "",
-                        "affiliation": ""
+                        "name": "Road to Operational AI: Challenges and Opportunities",
+                        "author": "Alex Wong",
+                        "affiliation": "Waterloo"
                     }
                 ]
             },
             {
-                "time": "16:00",
+                "time": "14:45",
+                "name": "Break"
+            },
+            {
+                "time": "15:00",
+                "name": "Social event"
+            },
+            {
+                "time": "16:30",
                 "name": "End of Day 1"
-            },
-            {
-                "time": "19:30",
-                "name": "CV Trivia Night"
             }
         ]
     },
@@ -108,99 +131,111 @@
         "items": [
             {
                 "time": "9:30",
-                "name": "Session 4",
+                "name": "Keynote 3",
                 "items": [
                     {
-                        "name": "Talk #11",
-                        "author": "Speaker11",
-                        "affiliation": "Uni11"
-                    },
-                    {
-                        "name": "Talk #12",
-                        "author": "Speaker12",
-                        "affiliation": "Uni12"
-                    },
-                    {
-                        "name": "Talk #13",
-                        "author": "Speaker13",
-                        "affiliation": "Uni13"
-                    },
-                    {
-                        "name": "Talk #14",
-                        "author": "Speaker14",
-                        "affiliation": "Uni14"
+                        "name": " ",
+                        "author": "Sanja Fidler",
+                        "affiliation": "Toronto"
                     }
                 ]
             },
             {
-                "time": "11:05",
+                "time": "10:45",
                 "name": "Break"
             },
             {
-                "time": "11:15",
-                "name": "Keynote - Prof."
-            },
-            {
-                "time": "12:00",
-                "name": "Lunch Break"
-            },
-            {
-                "time": "13:00",
-                "name": "Session 5",
+                "time": "11:00",
+                "name": "Poster Session 2",
                 "items": [
                     {
-                        "name": "Talk #15",
-                        "author": "Speaker15",
-                        "affiliation": "Uni15"
+                        "name": "Transformer-Based Network For Image Operator Approximation",
+                        "author": "Ian MacPherson",
+                        "affiliation": "2"
                     },
                     {
-                        "name": "Talk #16",
-                        "author": "Speaker16",
-                        "affiliation": "Uni16"
+                        "name": "Contrastive Learning for Sports Video: Unsupervised Player Classification",
+                        "author": "Maria Koshkina, Hemanth Pidaparthy, James Elder",
+                        "affiliation": "4"
                     },
                     {
-                        "name": "Talk #17",
-                        "author": "Speaker17",
-                        "affiliation": "Uni17"
+                        "name": "Renal Boundary and Tumour Detection in MRI using U-Net with Transfer Learning",
+                        "author": "Anush Agarwal, Nicola Schieda, Mohamed Elfaal, Eranga Ukwatta",
+                        "affiliation": "6"
+                    },
+                    {
+                        "name": "OLED: One-Class Learned Encoder-Decoder Network with Adversarial Context Masking for Novelty Detection",
+                        "author": "John Taylor Jewell, Vahid Reza Khazaie, Yalda Mohsenzadeh",
+                        "affiliation": "8"
+                    },
+                    {
+                        "name": "Object completion with stochastic completion fields",
+                        "author": "Morteza Rezanejad, Sidharth Gupta, Chandra Gummaluru, Ryan Marten, John Wilder, Michael Gruninger, Dirk Walther",
+                        "affiliation": "10"
+                    },
+                    {
+                        "name": "Deep Learning-Based Segmentation of Neonatal Cerebral Lateral Ventricles from 3D Ultrasound Images",
+                        "author": "Zachary Szentimrey, Sandrine de Ribaupierre, Aaron Fenster, Eranga Ukwatta",
+                        "affiliation": "12"
+                    },
+                    {
+                        "name": "Scale and translation  invariance preserving operators on distributions of images",
+                        "author": "Xavier Snelgrove, Sven Dickinson, Marcus Brubake",
+                        "affiliation": "14"
+                    },
+                    {
+                        "name": "Noise2NoiseFlow: Learning Camera Noise Models without Corresponding Clean Images",
+                        "author": "Ali Maleky, Michael S. Brown, Marcus A. Brubaker",
+                        "affiliation": "16"
+                    },
+                    {
+                        "name": "Procam Calibration from a Single Pose of a Planar Target",
+                        "author": "Ghani O. Lawal, Michael Greenspan",
+                        "affiliation": "18"
+                    },
+                    {
+                        "name": "Structured Visual Search via Composition-aware Learning",
+                        "author": "Mert Kilickaya, Arnold Smeulders",
+                        "affiliation": "20"
+                    },
+                    {
+                        "name": "Learning by Aligning Videos in Time",
+                        "author": "Sanjay Haresh, Sateesh Kumar, Huseyin Coskun, Shahram N. Syed, Andrey Konin, M. Zeeshan Zia, Quoc-Huy Tran",
+                        "affiliation": "22"
+                    },
+                    {
+                        "name": "A study on the effects of compression on hyperspectral image classification",
+                        "author": "Kiran Mantripragada, Faisal Z. Qureshi, Phuong D. Dao, Yuhong He",
+                        "affiliation": "24"
+                    },
+                    {
+                        "name": "Improved 6 DOF Pose Estimation Using Post-Processing Validation",
+                        "author": "Joy Mazumder, Mohsen Zand, Michael Greenspan",
+                        "affiliation": "26"
                     }
                 ]
             },
             {
-                "time": "14:15",
-                "name": "Break"
+                "time": "12:30",
+                "name": "Meet the Professors"
             },
             {
-                "time": "14:30",
-                "name": "Session 6",
+                "time": "13:30",
+                "name": "Keynote 4",
                 "items": [
                     {
-                        "name": "Talk #18",
-                        "author": "",
-                        "affiliation": "UWaterloo"
-                    },
-                    {
-                        "name": "Talk #19",
-                        "author": "",
-                        "affiliation": ""
-                    },
-                    {
-                        "name": "Talk #20",
-                        "author": "",
-                        "affiliation": ""
-                    },
-                    {
-                        "name": "Talk #21",
-                        "author": "",
-                        "affiliation": ""
+                        "name": "In-Camera Color Processing",
+                        "author": "Michael Brown",
+                        "affiliation": "York"
                     }
                 ]
             },
             {
-                "time": "16:00",
-                "name": "Closing ceremony"
+                "time": "14:45",
+                "name": "Closing remarks"
             },
             {
-                "time": "16:15",
+                "time": "15:00",
                 "name": "End of Day 2"
             }
         ]
