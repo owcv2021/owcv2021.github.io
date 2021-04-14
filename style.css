@@ -68,7 +68,7 @@ li {
     width: 100%;
     display: grid;
     /* grid-template-columns: 1fr min(75ch, 100%) 1fr; */
-    grid-template-columns: 1fr 500px 40px;
+    grid-template-columns: 1fr 600px 40px;
     padding: 20px 0;
     z-index: 10000;
     background-color: transparent;
