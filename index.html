@@ -1,5 +1,7 @@
+---
+---
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
@@ -75,7 +77,7 @@
                     </td>
                     <td style="width: 55.0000%;">
                         <ul>
-                            <li>Image Processing
+                            <li>Image Processing</li>
                             <li>Image Understanding</li>
                             <li>Object Tracking</li>
                             <li>Pose Estimation</li>
@@ -185,7 +187,7 @@
                 </td>
                 <td style="width: 50.0000%;">
                     <ul style="list-style-type:none; text-align:left">
-                        <li>2. <b>Transformer-Based Network For Image Operator Approximation</b> - Ian MacPherson
+                        <li>2. <b>Transformer-Based Network For Image Operator Approximation</b> - Ian MacPherson</li>
                         <li>4. <b>Contrastive Learning for Sports Video: Unsupervised Player Classification</b> - Maria Koshkina, Hemanth Pidaparthy, James Elder</li>
                         <li>6. <b>Renal Boundary and Tumour Detection in MRI using U-Net with Transfer Learning</b> - Anush Agarwal, Nicola Schieda, Mohamed Elfaal, Eranga Ukwatta</li>
                         <li>8. <b>OLED: One-Class Learned Encoder-Decoder Network with Adversarial Context Masking for Novelty Detection</b> - John Taylor Jewell, Vahid Reza Khazaie, Yalda Mohsenzadeh</li>
@@ -277,5 +279,10 @@
 
         <script src='index.js'></script>
         <script src="schedule.js"></script>
+
+        {% if jekyll.environment == 'production' %}
+        {% include google_analytics.html %}
+        {% endif %}
+
     </body>
 </html>
