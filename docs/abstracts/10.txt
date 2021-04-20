@@ -1,0 +1,8 @@
+Title: Hyperspectral pixel unmixing with Deep Variational Inference
+
+Hyper spectral images record the spectral signal of the imaged region.  Often times spectral signals of multiple physical materials are mixed in within a single hyper spectral pixel.  This is a common occurrence when dealing with low resolution images or when a material is imaged from a great height, e.g., from an airborne hyper spectral camera.  The problem of unmixing attempts to infer the mixing proportions of various physical materials captured within a single pixel.  We propose a Dirichlet Variational Autoencoder for hyper spectral pixel unmixing.  We evaluate the proposed model on synthetic data from USGS Spectral Laboratory and our results suggest that the proposed model outperforms a number of commonly used unmixing methods in terms of accuracy.
+
+Publication Status of the Work: Unpublished (i.e., new work)
+
+Link to Full Paper (if available): 
+

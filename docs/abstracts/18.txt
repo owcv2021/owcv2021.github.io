@@ -1,0 +1,8 @@
+Title: Active Correspondences Projector-Camera (Procam) Sensors
+
+ Ian J. Maquignaz
+
+Publication Status of the Work: Active correspondence structured/coded light (SL/CL) is a popular and successful technology forming the basis of a variety of different range sensing methods. These sensors have been demonstrated to operate in one-shot and temporally modulated approaches, using discrete and continuous SL/CL. In an effort to maximize the bandwidth and utility of such sensors, we previously proposed the use of inverse rectification to facilitate the establishment of correspondences across projected and recovered patterns. In inverse rectification, a pattern is transformed prior to projection by the inverse of standard rectification. Once projected, the pattern is forward rectified by the optical channel itself, allowing for correspondences to be recovered on distinct conjugate epipolar lines in rectified capture. This approach reduces correspondence search to a constant-time table lookup and leads to robust, accurate, and computationally efficient disparity calculations. To demonstrate the proposed method, a Projector-Camera (procam) sensor utilizing patterns comprising of vertical dashes was created and shown to be experimentally effective, yielding a theoretical throughput of 11.7M points per second (pps), compared to 2.3M pps for the Kinect V1 and 6.5M pps to the Kinect V2.
+
+Link to Full Paper (if available): Published
+

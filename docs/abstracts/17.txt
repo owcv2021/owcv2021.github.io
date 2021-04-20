@@ -1,0 +1,8 @@
+Title: Scale and translation invariance preserving operators on distributions of images
+
+In data-driven computer vision we work with datasets that can be understood as finite samples of probabilistic distributions of images. For instance, in image synthesis tasks we attempt to generate new samples from these underlying distributions. Some operators can be understood as preserving properties of these distributions, in particular the building blocks of computer vision deep learning models, convolutions, point-wise non-linearities, and pooling operators, all preserve translation invariance. This fits with a plausible intuition that many natural image distributions are translation invariant — a cat could just as easily occur on the left-hand-side of an image as it could on the right-hand-side. In this work we introduce operators, defined in the wavelet domain, that additionally preserve scale-invariance, and begin to investigate the viability of neural-network architectures built on these new operators. These architectures promise inductive biases well suited to images with similar statistics across scale, consistent with both perspective-induced scaling, as well as the scale-similarity seen in natural “fractal” structures such as trees, clouds, and coastlines. Scale invariant distributions of images introduce challenges for analysis, as for all non-trivial distributions the continuous images sampled are not band-limited and so can not be easily discretized and analyzed as finite-dimensional vectors. We therefore draw on the theory of continuous random fields (aka stochastic processes) for our analysis. 
+
+Publication Status of the Work: Unpublished (i.e., new work)
+
+Link to Full Paper (if available): 
+

@@ -1,0 +1,8 @@
+Title: Identifying and interpreting tuning dimensions in deep networks
+
+In neuroscience, a tuning dimension is a stimulus attribute that accounts for much of the activation variance of a group of neurons. These are commonly used to decipher the responses of such groups. While researchers have attempted to manually identify an analogue to these tuning dimensions in deep neural networks, we are unaware of an automatic way to discover them. This work contributes an unsupervised framework for identifying and interpreting "tuning dimensions" in deep networks. Our method correctly identifies the tuning dimensions of a synthetic Gabor filter bank and tuning dimensions of the first two layers of InceptionV1 trained on ImageNet.
+
+Publication Status of the Work: Public but unpublished (e.g., preprint on arXiv, but not accepted to a conference)
+
+Link to Full Paper (if available): https://arxiv.org/abs/2011.03043
+

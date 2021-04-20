@@ -1,0 +1,9 @@
+Title: Normalizing Flow for semi-supervised learning
+
+Normalizing flow is a deep generative model that can learn an invertible mapping from a simple latent distribution $P_Z$ to a complex, unknown target distribution $P_X$ through an invertible neural network. One of the main characteristics of normalizing flow is to allow the exact evaluation of the probability density. Hence, we can perform the classification by first learning the joint distribution $P_{XY}$ and then applying the Bayes rule for $P_{Y|X}$. This approach can be naturally adapted to a semi-supervised learning setting. Therefore, we propose FlowLatentFeatures, which learns the latent features for semi-supervised learning with the normalizing flow. In essence, we use normalizing flow to transform the complex input distribution into a Gaussian Mixture Model, in which each GMM component corresponds to each latent feature. Then, we can use the learned latent features to predict the output label $y$ for classification. We show that these learned latent features are very flexible and able to capture the input data clusters in order to improve the classification performance.
+
+
+Publication Status of the Work: Unpublished (i.e., new work)
+
+Link to Full Paper (if available): 
+

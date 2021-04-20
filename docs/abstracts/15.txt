@@ -1,0 +1,8 @@
+Title: (TBD)
+
+Previous work approaches image processing through the use of generalized convolutional neural networks (CNNs) to effectively model various image operators with a single forward pass. This serves to reduce and standardize image processing times over a range of operators which otherwise vary in their time complexities. Recent innovations to transformers allowing image encoding provides the opportunity to investigate their performance against applications currently dominated by CNNs. Here, we propose the first transformer-based architecture for generalized image processing tasks, and demonstrate their potential viability in place of the convolutional status-quo.
+
+Publication Status of the Work: Unpublished (i.e., new work)
+
+Link to Full Paper (if available): 
+

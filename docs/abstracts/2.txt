@@ -1,0 +1,8 @@
+Title: Training neural networks for feature alignment
+
+Training with backpropagation, naturally trains the linear transformations ( e.g convolutional or fully-connected layers) such that the projection that they perform preserves variances (in the input signal) that are useful for the classification task. By inverting that logic, we conclude variances that are in the nullspace of projections performed by the linear transforms should be irrelevant for the classification task. Here we leverage this fact, and explicitly train the layers of neural networks such that each layer projects features of out-of-distribution (OOD) samples to the nullspace of the next layer. We then show that this training enables us to detect OOD data and adversarial attacks, and also derive an uncertainty measure for the predictions of the network.
+
+Publication Status of the Work: Unpublished (i.e., new work)
+
+Link to Full Paper (if available): 
+

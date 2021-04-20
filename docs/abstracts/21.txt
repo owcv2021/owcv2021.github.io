@@ -1,0 +1,8 @@
+Title: Unsupervised Image Demoireing using Implicit Neural Representation
+
+Moire pattern is one of the most common noise in captured screen images, and removing such pattern is very challenging due to the difficulty of modelling of the pattern. Conventionally, the removal of moire pattern has been addressed by learning convolutional neural networks with paired data of moire-corrupted and moire-free images. However, acquiring aligned pairs requires extensive hardware setting and post-processing, which limits the applicability to real-world applications. In this work, we tackle this problem without ground-truth by using burst images as a cue for separating the moire pattern and underlying scene. To do this, we explore the approach that learns two signals separately using implicit neural representation (SIREN). Specifically, we train two SIRENs; one is for the underlying scene and the other is for the moire pattern. We share the representation of SIREN temporally for the underlying scene, and each frame is rendered by transforming input coordinates using learned homography matrices. On the other hand, the SIREN for the moire pattern learns per-frame representation. Since moire pattern usually changes randomly in burst images, the first SIREN modelled by homography cannot model the temporal difference of moire. Therefore, it learns only the underlying scene, while the second SIREN learns the moire pattern. For further improvement, gradient-level prior is added as a regularization loss. We are still exploring better approach to train two SIRENs, hopefully by changing fundamental aspects of SIRENs such as initialization and network architecture.
+
+Publication Status of the Work: Unpublished (i.e., new work)
+
+Link to Full Paper (if available): 
+

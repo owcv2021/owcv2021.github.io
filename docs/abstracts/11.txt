@@ -1,0 +1,23 @@
+Title: A study on the effects of compression on hyperspectral image classification
+
+This paper presents a systematic study the effects of compression
+  on hyperspectral pixel classification task.  We use five dimensionality
+  reduction methods---PCA, KPCA, ICA, AE, and DAE---to compress 301-dimensional
+  hyperspectral pixels.  Compressed pixels are subsequently used to perform
+  pixel-based classifications.  Pixel classification accuracies together with compression
+  method, compression rates, and reconstruction errors provide a new lens to
+  study the suitability of a compression method for the task of pixel-based classification.
+  We use three high-resolution hyperspectral image datasets, representing three
+  common landscape units (i.e. urban, transitional suburban, and forests) collected by
+  the Remote Sensing and Spatial Ecosystem Modeling laboratory of the University of Toronto.
+  We found that PCA, KPCA, and ICA post greater signal reconstruction capability; however,
+  when compression rate is more than 90\% those methods showed lower classification scores.
+  AE and DAE methods post better classification accuracy at 95\% compression
+  rate, however decreasing again at 97\%, suggesting a sweet-spot at the 95\% mark.
+  Our results demonstrate that the choice of a compression method with the compression rate are
+  important considerations when designing a hyperspectral image classification pipeline.
+
+Publication Status of the Work: Public but unpublished (e.g., preprint on arXiv, but not accepted to a conference)
+
+Link to Full Paper (if available): 
+

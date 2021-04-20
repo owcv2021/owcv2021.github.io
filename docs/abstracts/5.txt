@@ -1,0 +1,8 @@
+Title: Automatic Abbreviation of Hockey Videos
+
+Most team sports such as hockey involve periods of active play interleaved with breaks in play.  When watching a game remotely, many fans would prefer an abbreviated game showing only periods of active play.  Here we address the problem of identifying these periods in order to produce a time-compressed viewing experience. Our approach is based on a hidden Markov model of play state driven by deep visual and optional auditory cues.  We find that our deep visual cues generalize well across different cameras and  that auditory cues can improve performance but only if unsupervised methods are used to adapt emission distributions to domain shift across games.  Our system achieves temporal compression rates of 20-50% at a recall of 96%.
+
+Publication Status of the Work: Unpublished (i.e., new work)
+
+Link to Full Paper (if available): 
+

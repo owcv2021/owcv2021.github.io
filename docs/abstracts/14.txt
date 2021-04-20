@@ -1,0 +1,8 @@
+Title: Procam Calibration from a Single Pose of a Planar Target
+
+A novel user friendly method is proposed for calibrating a procam system from a single pose of a planar chessboard target. The user simply needs to orient the chessboard in a single appropriate pose. A sequence of Gray Code patterns are projected onto the chessboard, which allows correspondences between the camera, projector and the chessboard to be automatically extracted. These correspondences are fed as input to a nonlinear optimization method that models the projector of the principle points onto the chessboard, and accurately calculates the intrinsic and extrinsic parameters of both the camera and the projector, as well as the camera's distortion coefficients. The method is experimentally validated on the procam system, which is shown to be comparable in accuracy with existing multi-pose approaches. The impact of the orientation of the chessboard with respect to the procam imaging places is also explored through extensive simulation.
+
+Publication Status of the Work: Published
+
+Link to Full Paper (if available): https://www.scitepress.org/PublicationsDetail.aspx?ID=rGG70YCQyOs=&t=1
+

@@ -1,0 +1,8 @@
+Title: Noise2NoiseFlow: Learning Camera Noise Models without Corresponding Clean Images
+
+In recent years, there has been a wide array of attempts between the researchers to model and synthesize realistic image noise in computer vision. Most models, such as additive white Gaussian and signal-dependent Gaussian, provide only a coarse approximation of the real noise in images. More recently, the NoiseFlow work has attempted to model the image noise with the power of normalizing flows which is a powerful parametric generative model. However, this work suffers from a major drawback. It requires pairs of noisy and clean images for training.  Collecting such data is challenging at best and impossible in some case. Gathering noisy images along with their corresponding clean pair requires either long exposures or capturing multiple shots and averaging. Both are very tedious and in some domains such as medical imaging, even dangerous. In this work, we present Noise2NoiseFlow, which removes the need for pairs of noisy-clean images and instead, uses pairs of noisy-noisy images.  We utilize the idea of Noise2Noise and creates an end-to-end pipeline to model the noise distribution in the images without clean data. Noise2NoiseFlow is on par with NoiseFlow with the same structure with only a 0.02 drop in negative log-likelihood score while requiring no clean ground truth data.
+
+Publication Status of the Work: Unpublished (i.e., new work)
+
+Link to Full Paper (if available): 
+

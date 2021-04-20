@@ -1,0 +1,8 @@
+Title: Structured Visual Search via Composition-aware Learning
+
+In this talk I present visual search using structured queries. The structure is in the form of a 2D composition that encodes the position and the category of the objects. The transformation of the position and the category of the objects leads to a continuous-valued relationship between visual compositions, which carries highly beneficial information, although not leveraged by previous techniques. To that end, in this work, our goal is to leverage these continuous relationships by using the notion of symmetry in equivariance. Our model output is trained to change symmetrically with respect to the input transformations, leading to a sensitive feature space. Doing so leads to a highly efficient search technique, as our approach learns from fewer samples using a smaller feature space. Experiments on two large-scale benchmarks of MS-COCO and HICO-DET demonstrates that our approach leads to a considerable gain in the performance against competing techniques.
+
+Publication Status of the Work: Published
+
+Link to Full Paper (if available): https://openaccess.thecvf.com/content/WACV2021/papers/Kilickaya_Structured_Visual_Search_via_Composition-Aware_Learning_WACV_2021_paper.pdf
+

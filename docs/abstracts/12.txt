@@ -1,0 +1,8 @@
+Title: Understanding Gene Model Maps
+
+We propose a computer vision system for parsing gene model maps.  Gene model maps are visual illustrations (often used in the biological sciences literature) that are used to demonstrate how a discovery fits into what is already known about a biological system. Furthermore, determining what interactions occur between a set of genes is valuable for researchers. Our work comprises three parts.  First, we train a triplet network to decide whether or not a figure is a gene model map.  Next, we use Google's Cloud Vision optical character recognition to extract the text of genes occurring within the gene model map. Secondly, we repurpose the architecture of YOLOv5 trained on our synthetic dataset of biological diagrams to find locations of genes and relationships. Lastly, we proposed a deep network that is able to infer the relationships between the gene pairs present in the gene model. Components of this system power the search functionality of Bio-Analytic Resource for Plant Biology tool at the University of Toronto.
+
+Publication Status of the Work: Unpublished (i.e., new work)
+
+Link to Full Paper (if available): 
+
